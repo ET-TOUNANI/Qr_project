@@ -1,8 +1,7 @@
-# Qr_Generator <img href="https://github.com/ET-TOUNANI/Qr_project/blob/master/images/download.jpg" >
+# Qr_Generator <img src="https://github.com/ET-TOUNANI/Qr_project/blob/master/images/download.jpg" >
 using phpqrcode library 
 
 ## code 
-<code>
 include('phpqrcode/qrlib.php');
 
     // how to save PNG codes to server
@@ -33,4 +32,3 @@ include('phpqrcode/qrlib.php');
     QRcode::png('PHP QR Code :)');
     // displaying
     echo '<img src="'.$urlRelativeFilePath.'" />';
-</code>
