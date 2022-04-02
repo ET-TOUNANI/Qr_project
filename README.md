@@ -1,6 +1,6 @@
-# Qr_Generator
+# Qr_Generator <img href="https://github.com/ET-TOUNANI/Qr_project/blob/master/images/download.jpg" >
 using phpqrcode library 
-<img href="https://github.com/ET-TOUNANI/Qr_project/blob/master/images/download.jpg" >
+
 ## code 
 <code>
 include('phpqrcode/qrlib.php');
