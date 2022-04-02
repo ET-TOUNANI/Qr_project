@@ -4,7 +4,7 @@
     include('phpqrcode/qrlib.php');
 
     // how to save PNG codes to server
-    /*
+    
     $tempDir = "images/";
     
     $codeContents = 'salam Qr';
@@ -30,9 +30,6 @@
     echo '<hr />';
     QRcode::png('PHP QR Code :)');
     // displaying
-    echo '<img src="'.$urlRelativeFilePath.'" />';*/
+    echo '<img src="'.$urlRelativeFilePath.'" />';
 
-    $svgCode = QRcode::png('salam Qr :)');
-    
-    echo $svgCode;
     ?>
